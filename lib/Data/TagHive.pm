@@ -2,8 +2,8 @@ use 5.12.0;
 use warnings;
 
 package Data::TagHive;
-BEGIN {
-  $Data::TagHive::VERSION = '0.001';
+{
+  $Data::TagHive::VERSION = '0.002';
 }
 # ABSTRACT: hierarchical tags with values
 
@@ -129,6 +129,7 @@ sub all_tags {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -137,7 +138,7 @@ Data::TagHive - hierarchical tags with values
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -235,4 +236,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
