@@ -3,7 +3,7 @@ use warnings;
 
 package Data::TagHive;
 {
-  $Data::TagHive::VERSION = '0.002';
+  $Data::TagHive::VERSION = '0.003';
 }
 # ABSTRACT: hierarchical tags with values
 
@@ -132,13 +132,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Data::TagHive - hierarchical tags with values
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
